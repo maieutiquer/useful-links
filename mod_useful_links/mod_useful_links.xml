@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+  <name>mod_useful_links</name>
+  <author>Daniel Rodriguez</author>
+  <version>1.2</version>
+  <description>Shows a list of useful links.</description>
+  <files>
+    <filename>mod_useful_links.xml</filename>
+    <filename module="mod_useful_links">mod_useful_links.php</filename>
+    <filename>helper.php</filename>
+    <folder>tmpl</folder>
+  </files>
+  <languages>
+    <language tag="en-GB">en-GB.mod_useful_links.ini</language>
+    <language tag="en-GB">en-GB.mod_useful_links.sys.ini</language>
+    <language tag="fr-FR">fr-FR.mod_useful_links.ini</language>
+    <language tag="fr-FR">fr-FR.mod_useful_links.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="Links" label="MOD_USEFUL_LINKS_LINKS">
+        <field
+          name="cols"
+          type="text"
+          default="1"
+          label="MOD_USEFUL_LINKS_COLUMNS"
+          description="MOD_USEFUL_LINKS_COLUMNS_DESC" />
+        <field
+          name="title_1"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,1"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_1"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,1"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_2"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,2"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_2"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,2"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_3"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,3"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_3"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,3"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_4"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,4"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_4"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,4"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_5"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,5"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_5"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,5"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_6"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,6"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_6"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,6"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_7"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,7"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_7"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,7"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_8"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,8"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_8"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,8"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_9"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,9"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_9"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,9"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_10"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,10"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_10"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,10"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_11"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,11"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_11"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,11"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_12"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,12"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_12"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,12"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_13"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,13"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_13"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,13"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_14"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,14"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_14"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,14"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+        <field
+          name="title_15"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_TITLE,15"
+          description="MOD_USEFUL_LINKS_LINK_TITLE_DESC" />
+        <field
+          name="url_15"
+          type="text"
+          default=""
+          label="MOD_USEFUL_LINKS_LINK_URL,15"
+          description="MOD_USEFUL_LINKS_LINK_URL_DESC" />
+      </fieldset>
+    </fields>
+  </config>
+</extension>
