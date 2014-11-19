@@ -17,8 +17,10 @@ for ($i = 0; $i < $cols; $i++) {
       $url = "#";
       if (isset($urls[$current])) {
         $url = $urls[$current];
+        $markup .= '<a href="'.$url.'" target="_blank" rel="nofollow">'.$title.'</a>';
+      } else {
+        $markup .= $title;
       }
-      $markup .= '<a href="'.$url.'" target="_blank" rel="nofollow">'.$title.'</a>';
       $markup .= '</li>';
     }
   }
